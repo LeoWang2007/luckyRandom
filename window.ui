@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>862</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WonderTools - 2020六一活动抽奖</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*background-color: rgb(187, 229, 255);*/</string>
+  </property>
+  <widget class="QLabel" name="lab_number">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>831</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Aa甜甜圈 (非商业使用)</family>
+     <pointsize>140</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(91, 0, 183);</string>
+   </property>
+   <property name="text">
+    <string>&gt;_&lt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignHCenter|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_play">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>400</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>焦糖奶茶</family>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-radius:10px;background-color:rgb(58, 164, 221)}
+QPushButton:hover{background-color:rgb(0, 196, 255)}
+QPushButton:pressed{background-color: rgb(192, 242, 255);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>抽奖</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>861</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/bgNew.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_admin">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>560</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{border-radius:10px;background-color:rgb(58, 164, 221)}
+QPushButton:hover{background-color:rgb(0, 196, 255)}
+QPushButton:pressed{background-color: rgb(192, 242, 255);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>admin</string>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>btn_play</zorder>
+  <zorder>lab_number</zorder>
+  <zorder>btn_admin</zorder>
+ </widget>
+ <connections/>
+</ui>
